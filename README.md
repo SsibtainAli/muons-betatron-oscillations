@@ -23,32 +23,34 @@ This repository contains C++ and MATLAB files for simulating the horizontal and 
 ## Simulation Details
 
 ### Horizontal Betatron Oscillations
-- **Equation of Motion**:
-  \[
-  \ddot{x} + \omega_0^2 (1 - n)x = 0
-  \]
-  where:
-  - \(\omega_0\): Theoretical angular frequency.
-  - \(n\): Field index (weak focusing strength).
-- **Initial Conditions**:
-  - \(x(0) = 1.0 \, \text{cm}\)
-  - \(\dot{x}(0) = 0.0 \, \text{cm/s}\)
-- **Time Step**: \(1 \, \text{ns}\)
-- **Duration**: \(120 \, \text{ns}\)
+- **Equation of Motion**:  
+  x'' + ω₀²(1 - n)x = 0  
+  Where:  
+  - ω₀: Theoretical angular frequency.  
+  - n: Field index (weak focusing strength).
+
+- **Initial Conditions**:  
+  - x(0) = 1.0 cm  
+  - x'(0) = 0.0 cm/s  
+
+- **Time Step**: 1 ns  
+- **Duration**: 120 ns  
+
+---
 
 ### Vertical Betatron Oscillations
-- **Equation of Motion**:
-  \[
-  \ddot{z} + n \omega_0^2 z = 0
-  \]
-  where:
-  - \(\omega_0\): Theoretical angular frequency.
-  - \(n\): Field index.
-- **Initial Conditions**:
-  - \(z(0) = 5.0 \, \text{cm}\)
-  - \(\dot{z}(0) = 0.0 \, \text{cm/s}\)
-- **Time Step**: \(1 \, \text{ns}\)
-- **Duration**: \(10 \, \text{μs}\)
+- **Equation of Motion**:  
+  z'' + nω₀²z = 0  
+  Where:  
+  - ω₀: Theoretical angular frequency.  
+  - n: Field index.
+
+- **Initial Conditions**:  
+  - z(0) = 5.0 cm  
+  - z'(0) = 0.0 cm/s  
+
+- **Time Step**: 1 ns  
+- **Duration**: 10 μs  
 
 ---
 
