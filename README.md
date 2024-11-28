@@ -97,6 +97,6 @@ Each MATLAB script uses `sgtitle` to group the plots under a single heading.
 ## Applications
 These simulations are part of the study of betatron oscillations, which are crucial for understanding:
 - The dynamics of stored muons in weak focusing fields.
-- The design and analysis of storage rings for high-energy particle experiments like g-2.
+- The design and analysis of storage rings for high-energy particle experiments like the Muon g-2/EDM experiment at J-PARC.
 
 ---
